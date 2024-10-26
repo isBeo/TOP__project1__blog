@@ -9,15 +9,52 @@ body{
     color:silver;
     padding:16px 8px;
     margin:0 10px;
-    
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    min-width: 350px ;
 }
 
 h1{
     text-align: center;
+    padding: 10px;
+}
+
+h2{
+    padding: 20px;
 }
 
 article{
-    min-width: 520px;
+    /* min-width: 320px; */
     padding: 5px;
+    margin: 2px;
+    box-shadow: 0 0 5px white;
+    border-radius: 12px;
     margin: 10px;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+
+@media (min-width:740px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* background-color: blue; */
+    }
+
+}
+
+
+@media (min-width:1024px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* background-color: tomato; */
+    }
 }
