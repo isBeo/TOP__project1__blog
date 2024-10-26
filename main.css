@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color:silver;
+    padding:16px 8px;
+    margin:0 10px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+article{
+    min-width: 520px;
+    padding: 5px;
+    margin: 10px;
+}
